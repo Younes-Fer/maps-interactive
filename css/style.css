@@ -1,0 +1,108 @@
+#region-1:hover {
+    fill: rgb(111, 216, 254);
+    stroke: rgb(253, 253, 253);
+    pointer-events: all;
+    cursor: pointer;
+}
+#region-2:hover {
+    fill: rgb(51, 230, 99);
+    stroke: rgb(253, 253, 253);
+    pointer-events: all;
+    cursor: pointer;
+}
+#region-3:hover {
+    fill: rgb(224, 110, 127);
+    stroke: rgb(253, 253, 253);
+    pointer-events: all;
+    cursor: pointer;
+}
+#region-4:hover {
+    fill: rgb(225, 233, 81);
+    stroke: rgb(253, 253, 253);
+    pointer-events: all;
+    cursor: pointer;
+}
+#region-5:hover {
+    fill: rgb(184, 70, 70);
+    stroke: rgb(253, 253, 253);
+    pointer-events: all;
+    cursor: pointer;
+}
+#region-6:hover {
+    fill: rgb(11, 114, 159);
+    stroke: rgb(253, 253, 253);
+    pointer-events: all;
+    cursor: pointer;
+}
+#region-7:hover {
+    fill: rgb(234, 174, 7);
+    stroke: rgb(253, 253, 253);
+    pointer-events: all;
+    cursor: pointer;
+}
+#region-8:hover {
+    fill: rgb(149, 45, 223);
+    stroke: rgb(253, 253, 253);
+    pointer-events: all;
+    cursor: pointer;
+}
+#region-9:hover {
+    fill: rgb(243, 215, 8);
+    stroke: rgb(253, 253, 253);
+    pointer-events: all;
+    cursor: pointer;
+}
+#region-10:hover {
+    fill: rgb(189, 30, 217);
+    stroke: rgb(253, 253, 253);
+    pointer-events: all;
+    cursor: pointer;
+}
+#region-11:hover {
+    fill: rgb(173, 219, 23);
+    stroke: rgb(253, 253, 253);
+    pointer-events: all;
+    cursor: pointer;
+}
+#region-12:hover {
+    fill: rgb(225, 70, 3);
+    stroke: rgb(253, 253, 253);
+    pointer-events: all;
+    cursor: pointer;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 980px;
+    margin: auto;
+    padding: 20px 0;
+}
+.maps {
+    width: 600px;
+}
+.regions {
+    text-align: right;
+    width: 300px;
+    background-color: #d3d3d33b;
+    font-family: "Cairo", sans-serif;
+    font-size: 15px;
+}
+.title-region {
+    color: white;
+    background-color: gray;
+    margin: 0;
+    padding: 10px 10px;
+}
+ul {
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    background-color: #d3d3d33b;
+}
+.item-region {
+    padding: 4px 3px;
+    cursor: pointer;
+}
+.item-region:hover {
+    background-color: rgb(255, 252, 252);
+}
